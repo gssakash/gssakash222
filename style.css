@@ -297,6 +297,8 @@ margin-right:80px;
     overflow: hidden;
     margin-right:150px;
     margin-left:100px;
+    max-height:300px;
+
 }
 
 
@@ -718,6 +720,7 @@ margin:0 auto;
         margin-right: 20px;
         padding: 0px;
         margin-left: 45px;
+        max-height:500px;
     }
 
     /* Contact 
@@ -760,4 +763,6 @@ margin:0 auto;
      margin-top: 0px; 
 
     }
+
+    
 }
