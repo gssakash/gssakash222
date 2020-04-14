@@ -750,3 +750,14 @@ margin:0 auto;
 }
 
 
+@media(max-width:576px)
+
+{
+    .about-left {
+        margin-bottom: 40px;
+    }
+    .project-left {
+     margin-top: 0px; 
+
+    }
+}
