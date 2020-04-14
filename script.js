@@ -43,6 +43,20 @@ sr.reveal('.about-left', {
     distance:'300px'
 });
 
+
+sr.reveal('.project-left', {
+    duration:3000,
+    origin:'left',
+    distance:'300px'
+});
+
+sr.reveal('.content', {
+    duration:3000,
+    origin:'right',
+    distance:'300px'
+});
+
+
 sr.reveal('.container-contact', {
     duration:3000,
     origin:'bottom',
