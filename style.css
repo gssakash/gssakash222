@@ -114,6 +114,11 @@ a.nav-link:hover{
 
 /* Home */
 
+#Home
+{
+    padding:100px 0px;
+}
+
 .home
 {
     background-color: #121212;
@@ -254,9 +259,17 @@ a.nav-link:hover{
 
 .project-left
 {
-  padding-right:150px;
+	padding-right:0px;
 }
+
+#project-left
+{
+	margin-right:150px;
+}
+
+
 .content {
+    margin-left:150px;
     position: relative;
     width: 60%;
     max-width: 400px;
@@ -463,6 +476,22 @@ margin:0 auto;
 @media(max-width:1024px)
 {
 
+#Home
+{
+    padding:80px 50px;
+}
+
+#home-left
+{
+     padding-right: 0px;
+}
+
+.home-image
+{
+    margin-left: 35px;
+
+}
+
   .header-1
   {
     white-space:nowrap;
@@ -483,7 +512,7 @@ margin:0 auto;
   
   
   .workbtn a{
-        margin-left: 50px;
+        margin-left: 75px;
     margin-top:0px;
     margin-bottom:20px;
         white-space: nowrap;
@@ -544,7 +573,11 @@ margin:0 auto;
     padding-left:50px;
     padding-right:0px;
     padding-top:0px;
+    margin-right:0px;
   }
+
+
+
 
 
 
@@ -727,6 +760,8 @@ margin:0 auto;
     padding-right:40px;
     order:2;
   }
+
+
   
   .content{
     order:1;
