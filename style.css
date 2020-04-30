@@ -484,6 +484,7 @@ margin:0 auto;
     text-align: center;
     width: 100%;
     margin: 20px auto 0px auto;
+    user-select:none;
   }
   
   .submitbtn:hover,
